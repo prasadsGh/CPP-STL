@@ -1,0 +1,37 @@
+Containers:
+1)simple Containers: pairs, vector,forward_list,list
+2)containers adapters: stack, queue, priority queue
+3)associative : set, map, unordered_set,unordered_map
+
+algorithm: binary_Search,find,reverse,sort,...many more
+
+1)simple:
+        1)can be used to represent things like time intervals, 2 D points, 
+        2)vector-->dynamic sized arrays
+        3)forward_list-->singly linked list
+        4)list-->doubly linked list
+
+2)container adapter--> build on the top of the simple containers
+        1)stack 
+        2)queue
+        3)priority_queue
+
+3)associative containers-->
+        aasociative containers are self balancing binary tree and hash tables implementations using :
+        1)set:collection of keys
+        2)map:collection of key value pair
+        3)unordered_map : 
+        4)unordered_set
+
+NOTE:
+.begin()-->gives the address of first element
+.end()-->gives the address beyond the last element
+
+containers are the concept of templates
+and algorithm are the concepts of range iterator addresses--> algo(name.begin(),name.end())
+
+
+
+
+
+
