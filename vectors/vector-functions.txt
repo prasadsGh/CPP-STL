@@ -1,3 +1,5 @@
+*max_element()  It returns the maximum element in the vector
+
 at()	It provides a reference to an element.
 
 back()	It gives a reference to the last element.
