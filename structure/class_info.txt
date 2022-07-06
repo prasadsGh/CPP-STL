@@ -1,0 +1,15 @@
+we can use the member functions of base class inside the derived class
+we can declare the functions inside the class 
+and we can define them outside the class
+like -->
+class student::display_info()
+{
+    ...
+}
+where student is a class and the display_info is the function inside the class
+n the above program, the ‘Child’ class is publicly inherited from the ‘Parent’ class so the public data members of the class ‘Parent’ will also be inherited by the class ‘Child’.
+Modes of Inheritance: There are 3 modes of inheritance.
+
+Public Mode: If we derive a subclass from a public base class. Then the public member of the base class will become public in the derived class and protected members of the base class will become protected in the derived class.
+Protected Mode: If we derive a subclass from a Protected base class. Then both public members and protected members of the base class will become protected in the derived class.
+Private Mode: If we derive a subclass from a Private base class. Then both public members and protected members of the base class will become Private in the derived class.
